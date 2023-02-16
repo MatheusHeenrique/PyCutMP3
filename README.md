@@ -1,25 +1,23 @@
-# Bem vindo ao meu programa de corte de música em python!
+# Welcome to my Python music cutting program!
 
-Este programa é projetado para ajudar você a cortar sua música com base nos minutos fornecidos.
+This program is designed to help you cut your music based on the provided minutes.
 
-Você pode usar o programa de duas maneiras:
+You can use the program in two ways:
 
-1. Usando um arquivo de texto como entrada:
+    Using a text file as input:
 
-Para usar este método, você deverá fornecer o caminho para o arquivo de texto como argumento, por exemplo:
+To use this method, you need to provide the path to the text file as an argument, for example:
 
-python principal.py -f "C:\path\para\arq_txt.txt" -a "C:\path\para\música.mp3"
+python main.py -f "C:\path\to\text_file.txt" -a "C:\path\to\music.mp3"
 
+Note that in the text file, minutes should be typed like this: 1:20 2:30. Also, you must give an enter after the last minute, otherwise the program will give an error.
 
-Observe que, no arquivo de texto, os minutos devem ser digitados assim: 1:20 2:30. Além disso, você deve dar um entrer após o último minuto, caso contrário o programa dará um erro.
+    Using minutes provided directly:
 
+In this case, you will provide the minutes as an argument, for example:
 
-2. Usando minutos fornecidos diretamente:
+python main.py -m 0:00 0:10 -a "C:\path\to\music.mp3"
 
-Neste caso, você fornecerá os minutos como argumento, por exemplo:
+With this, you can cut your music based on the provided minutes.
 
-python principal.py -m 0:00 0:10 -a "C:\path\para\música.mp3"
-
-Com isso, você pode cortar sua música com base nos minutos fornecidos.
-
-Obrigado por usar me programa e divirta-se!
+Thank you for using my program and have fun! If you think you can add something, feel free to do so.
