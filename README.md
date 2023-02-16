@@ -4,7 +4,7 @@ This program is designed to help you cut your music based on the provided minute
 
 You can use the program in two ways:
 
-    Using a text file as input:
+# Using a text file as input:
 
 To use this method, you need to provide the path to the text file as an argument, for example:
 
